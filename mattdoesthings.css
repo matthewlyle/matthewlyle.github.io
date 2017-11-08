@@ -4229,6 +4229,10 @@ body { font-family: "skolar-1", "skolar-2"; -webkit-font-smoothing: antialiased;
 
 h1, h2, h3, h4, .brandon { font-family: "brandon-grotesque-1", "brandon-grotesque-2"; }
 
+.py-link { color: #000; background: yellow; text-decoration: none; transition: .2s; display: inline-block; }
+
+.py-link:hover { transform: scale(1.1); }
+
 .remodal-overlay { background: rgba(44, 60, 111, 0.95); }
 
 .slick-arrow:before { font-size: 40px; }
