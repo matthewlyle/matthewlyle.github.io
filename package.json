@@ -1,0 +1,20 @@
+{
+  "name": "processyellow.ca",
+  "version": "0.0.1",
+  "description": "http://processyellow.ca",
+  "dependencies": {
+    "jquery": "1.9",
+    "tachyons": "4.7.4",
+    "slick-carousel": "1.6.0",
+    "remodal": "1.1.1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.18.1",
+    "gulp": "3.9",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.1"
+  }
+}

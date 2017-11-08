@@ -1,0 +1,13 @@
+title: Matt Does Things
+email: matt@mattdoesthings.com
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://mattdoesthings.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - node_modules
+  - gulpfile.js

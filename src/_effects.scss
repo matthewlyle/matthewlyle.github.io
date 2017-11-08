@@ -1,0 +1,9 @@
+.effect_pop-up {
+  text-shadow: 0;
+  transition: .2s;
+  &:hover {
+    transform: scale(1.1);
+    text-shadow: 3px 3px 5px rgba(0,0,0,.4);
+  }
+  &:focus {text-shadow: 3px 3px 5px rgba(0,0,0,.7);}
+}

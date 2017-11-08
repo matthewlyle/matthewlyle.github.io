@@ -1,0 +1,9 @@
+$serif: "skolar-1","skolar-2";
+$sans: "brandon-grotesque-1", "brandon-grotesque-2";
+
+body {
+	font-family: $serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .brandon {font-family: $sans}
