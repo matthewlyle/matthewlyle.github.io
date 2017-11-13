@@ -13298,4 +13298,7 @@ $(function () {
 		$('.js-responsive-menu').slideToggle();
 	})
 
+	$('[data-remodal-id=menu] a').click(function(){
+		$('[data-remodal-id=menu]').remodal().close();
+	})
 });
