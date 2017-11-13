@@ -1,8 +1,7 @@
-title: Matt Does Things
-email: matt@mattdoesthings.com
+title: Process Yellow
+email: matt@processyellow.ca
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mattdoesthings.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://processyellow.ca"
 
 markdown: kramdown
 exclude:

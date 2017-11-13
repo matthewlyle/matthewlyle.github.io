@@ -38,7 +38,7 @@ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
 gulp.task('styles', function () {
 	return gulp.src('./src/*.scss')
 	.pipe(sass({outputStyle: 'compact'}).on('error', sass.logError))
-	.pipe(rename('mattdoesthings.css'))
+	.pipe(rename('processyellow.css'))
 	.pipe(gulp.dest('_site/')) // browser-sync live injection
 	.pipe(browserSync.reload({stream:true}))
 	.pipe(gulp.dest('./'));
@@ -51,7 +51,7 @@ gulp.task('js', function() {
 		'./node_modules/remodal/dist/remodal.js',
 		'./src/scripts.js'
 	])
-	.pipe(concat('mattdoesthings.js'))
+	.pipe(concat('processyellow.js'))
 	// .pipe(uglify())
 	.pipe(gulp.dest('_site/'))
 	.pipe(browserSync.reload({stream: true}))
