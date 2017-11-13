@@ -1,3 +1,5 @@
 .remodal-overlay {background: rgba(44, 60, 111, 0.95);}
-.slick-arrow:before {font-size: 40px;}
+.slick-arrow:before {font-size: 40px; color: #0d4571}
 .slick-prev {left: -45px !important;}
+.slick-dots {position: relative;}
+.slick-dots button:before {color: #0d4571 !important;}
