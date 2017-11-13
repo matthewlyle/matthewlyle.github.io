@@ -1,4 +1,3 @@
-@import './node_modules/tachyons/css/tachyons';
 @import './node_modules/remodal/dist/remodal';
 @import './node_modules/remodal/dist/remodal-default-theme';
 @import './node_modules/slick-carousel/slick/slick.scss';
@@ -14,3 +13,6 @@ $dreamhost-blue: #061C26;
 @import 'responsive';
 @import 'typography';
 @import 'vendor';
+
+@import './node_modules/tachyons/css/tachyons';
+
