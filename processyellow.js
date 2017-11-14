@@ -13274,31 +13274,26 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
   });
 });
 
+var py = {
+
+	galleries: function(){
+		var $homepage_gallery = $('.js-portfolio-slider'),
+		$intrafinity_gallery = $('.js-intrafinity-slider');
+
+		$homepage_gallery.slick({dots: true, adaptiveHeight: true, lazyLoad: 'ondemand', slidesToShow: 1});
+		$intrafinity_gallery.slick({dots: true, adaptiveHeight: true});
+	},
+
+	menu: function(){
+		var $menu = $('[data-remodal-id=menu]');
+
+		$menu.find('a').click(function(){
+			$menu.remodal().close();
+		})
+	}
+}
+
 $(function () {
-
-	$('.js-portfolio-slider').slick({
-		dots: true,
-		adaptiveHeight: true,
-		lazyLoad: 'ondemand',
-		slidesToShow: 1
-	});
-
-	$('.js-intrafinity-slider').slick({
-		dots: true,
-		adaptiveHeight: true
-	});
-
-	$('.dreampress-slider').slick({
-		dots: true,
-		arrows: false
-	});
-
-	$('.js-responsive-menu').hide();
-	$('.js-responsive-menu-trigger').click(function(){
-		$('.js-responsive-menu').slideToggle();
-	})
-
-	$('[data-remodal-id=menu] a').click(function(){
-		$('[data-remodal-id=menu]').remodal().close();
-	})
+	py.galleries();
+	py.menu();
 });
